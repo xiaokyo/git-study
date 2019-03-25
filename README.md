@@ -4,3 +4,8 @@
 > git add index.js
 > git commit --amend
 - 这样就只有一个提交文件了
+
+# javascript code
+    function haha(){
+      alert(1);
+    }
