@@ -15,4 +15,4 @@
 
 获取master分支最新的commit和本地的仓库进行合并
 
-![git tree](刚刚复制的地址)
+![git tree](https://github.com/xiaokyo/git-study/blob/master/git_tree.jpg)
