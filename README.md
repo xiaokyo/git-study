@@ -14,3 +14,5 @@
     git pull origin master
 
 获取master分支最新的commit和本地的仓库进行合并
+
+![git tree](刚刚复制的地址)
