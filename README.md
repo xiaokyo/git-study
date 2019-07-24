@@ -15,5 +15,9 @@
 
 获取master分支最新的commit和本地的仓库进行合并
 
+    git remote set-url origin <url>
+
+设置新的远程仓库url
+
 # git tree
 ![git tree](https://github.com/xiaokyo/git-study/blob/master/git_tree.jpg)
