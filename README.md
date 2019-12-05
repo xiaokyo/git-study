@@ -19,6 +19,21 @@
     
     git branch --set-upstream-to=origin/test test
 
+回退版本强制提交
+
+    git reset --hard e377f60e28c8b84158
+    git push -f origin dev
+
+获取单次提交的commit修改
+
+    git log --online -3
+    git cherry-pick 2555c6e
+    // 有冲突解决后
+    git cherry-pick --continue
+    // or
+    git cherry-pick 2555c6e -n
+    // 不自动提交
+
 
 # git tree
 ![git tree](https://github.com/xiaokyo/git-study/blob/master/git_tree.jpg)
