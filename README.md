@@ -30,6 +30,10 @@
     git cherry-pick 2555c6e
     // 有冲突解决后
     git cherry-pick --continue
+    // or
+    git cherry-pick 2555c6e -n
+    // 不自动提交
+
 
 # git tree
 ![git tree](https://github.com/xiaokyo/git-study/blob/master/git_tree.jpg)
