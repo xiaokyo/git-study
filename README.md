@@ -34,6 +34,9 @@
     git cherry-pick 2555c6e -n
     // 不自动提交
 
+修改本地分支名称
+
+    git branch -m <old name> <new name>
 
 # git tree
 ![git tree](https://github.com/xiaokyo/git-study/blob/master/git_tree.jpg)
