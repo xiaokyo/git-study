@@ -34,6 +34,9 @@
     git cherry-pick 2555c6e -n
     // 不自动提交
 
+使用rebase来达到每次提交你的提交都在最上面
 
+    git pull origin dev --rebase
+    
 # git tree
 ![git tree](https://github.com/xiaokyo/git-study/blob/master/git_tree.jpg)
