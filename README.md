@@ -37,6 +37,10 @@
 使用rebase来达到每次提交你的提交都在最上面
 
     git pull origin dev --rebase
-    
+
+合并commit,<commitId>想合并后紧跟的commit
+
+    git rebase -i <commitId>
+
 # git tree
 ![git tree](https://github.com/xiaokyo/git-study/blob/master/git_tree.jpg)
